@@ -52,7 +52,7 @@ emi-calculator/
 1. **Clone the Repository:**
 
 ```bash
-git clone https://github.com/your-username/emi-calculator.git
+git clone https://github.com/KowshikMarlapati/react-adv-emi-calculator.git
 cd emi-calculator
 ```
 
