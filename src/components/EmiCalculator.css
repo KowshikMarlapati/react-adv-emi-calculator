@@ -1,0 +1,105 @@
+.calculator {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.left-panel,
+.right-panel {
+  flex: 1;
+  margin: 10px;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.input-block {
+  margin-bottom: 15px;
+}
+
+input[type="range"] {
+  width: 100%;
+  appearance: none;
+  height: 6px;
+  background: #eee;
+  border-radius: 5px;
+  outline: none;
+  margin-top: 8px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: #f76c1d;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  font-size: 1rem;
+}
+
+.value {
+  margin-top: 5px;
+  font-weight: bold;
+  color: #444;
+}
+
+.right-panel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  height: 80%;
+}
+
+.summary {
+  text-align: left;
+  font-size: 0.9rem;
+  max-width: 45%;
+}
+
+.summary p {
+  margin: 5px 0;
+}
+
+.emi-box {
+  background: #ffeaa7;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 1.1em;
+  margin-top: 10px;
+  text-align: center;
+  color: #2d3436;
+  font-weight: bold;
+}
+
+.apply-btn {
+  margin-top: 15px;
+  padding: 8px 16px;
+  background: white;
+  color: #f76c1d;
+  border: 2px solid #f76c1d;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.apply-btn:hover {
+  background: #f76c1d;
+  color: white;
+}
+
+.pie-container {
+  width: 250px;
+  height: 250px;
+}

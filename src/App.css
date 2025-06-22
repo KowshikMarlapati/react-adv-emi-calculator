@@ -1,0 +1,12 @@
+.app {
+  text-align: center;
+  background: #f8f9fa;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.description {
+  color: #fff;
+  background-color: #f76c1d;
+  padding: 10px;
+}
