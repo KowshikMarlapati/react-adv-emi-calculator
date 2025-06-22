@@ -6,7 +6,7 @@ A fully responsive ReactJS web application to calculate monthly EMI for home loa
 
 ## ✨ Live Demo
 
-[Click here to view the live app on Netlify](https://your-netlify-live-link.netlify.app/)
+[Click here to view the live app on Netlify](https://adv-emi-calculator-react.netlify.app/)
 
 ---
 
